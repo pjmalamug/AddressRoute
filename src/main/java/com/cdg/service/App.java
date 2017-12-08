@@ -10,7 +10,6 @@ public class App
     public static void main( String[] args )
     {
     	ApplicationContext ctx = new ClassPathXmlApplicationContext("file:src/main/Resources/camel-context.xml");
-    	ctx.getBean("test");
     	
     	@SuppressWarnings("deprecation")
 		Main main = new Main();

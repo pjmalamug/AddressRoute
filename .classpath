@@ -7,7 +7,8 @@
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/joda-time/joda-time/2.5/joda-time-2.5.jar" sourcepath="M2_REPO/joda-time/joda-time/2.5/joda-time-2.5-sources.jar"/>
-  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar" sourcepath="M2_REPO/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar" sourcepath="M2_REPO/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-core/2.13.4/camel-core-2.13.4.jar" sourcepath="M2_REPO/org/apache/camel/camel-core/2.13.4/camel-core-2.13.4-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.6/jaxb-impl-2.2.6.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.6/jaxb-impl-2.2.6-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-spring/2.13.4/camel-spring-2.13.4.jar" sourcepath="M2_REPO/org/apache/camel/camel-spring/2.13.4/camel-spring-2.13.4-sources.jar"/>
