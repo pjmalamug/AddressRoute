@@ -1,25 +1,16 @@
 package com.cdg.service;
 
-import org.apache.camel.Main;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.apache.camel.spring.Main;
 
 public class App 
 {
 	
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
     {
-    	ApplicationContext ctx = new ClassPathXmlApplicationContext("file:src/main/Resources/camel-context.xml");
-    	
-    	@SuppressWarnings("deprecation")
 		Main main = new Main();
+    	main.setApplicationContextUri("camel-context.xml");
     	main.addRouteBuilder(new AddressRoute());
-    	try {
-			main.run();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    	main.run();
         
     }
 }

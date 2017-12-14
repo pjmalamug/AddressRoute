@@ -2,17 +2,15 @@ package com.cdg.service;
 
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.component.properties.PropertiesComponent;
+import org.apache.logging.log4j.core.config.properties.PropertiesConfiguration;
 
 public class AddressRoute extends RouteBuilder{
 
 	@Override
 	public void configure() throws Exception {
-		
-		PropertiesComponent pc = getContext().getComponent("properties", PropertiesComponent.class);
-		pc.setLocation("classpath:ftp.properties");
-		
-		from("file:C:\\camelTest\\origin?noop=true").log(LoggingLevel.DEBUG, "log:").to("file:C:\\camelTest\\destination");
+		from("{{start.endpoint}}")
+		.log("test")
+		.to("{{end.endpoint}}");
 	}
 
 }
