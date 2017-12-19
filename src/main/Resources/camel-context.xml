@@ -10,7 +10,7 @@
           http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
 	<camelContext xmlns="http://camel.apache.org/schema/spring">
-		<propertyPlaceholder id="properties" location="classpath:ftp.properties,log4j2.properties" />
+		<propertyPlaceholder id="properties" location="classpath:ftp.properties,log4j2.xml" />
 	</camelContext>
 
 </beans>
